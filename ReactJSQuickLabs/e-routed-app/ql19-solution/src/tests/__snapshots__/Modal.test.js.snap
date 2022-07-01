@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal render tests Modal matches snapshot when message has a value 1`] = `
+<div
+  className="modal display-block"
+>
+  <section
+    className="modal-main"
+  >
+    <h3>
+      Todo Application Information
+    </h3>
+    <p>
+      Error
+    </p>
+    <button
+      className="btn btn-primary"
+      onClick={[MockFunction]}
+    >
+      Close
+    </button>
+  </section>
+</div>
+`;
+
+exports[`Modal render tests Modal matches snapshot when message is falsy 1`] = `
+<div
+  className="modal display-none"
+>
+  <section
+    className="modal-main"
+  >
+    <h3>
+      Todo Application Information
+    </h3>
+    <p>
+      
+    </p>
+    <button
+      className="btn btn-primary"
+      onClick={[MockFunction]}
+    >
+      Close
+    </button>
+  </section>
+</div>
+`;

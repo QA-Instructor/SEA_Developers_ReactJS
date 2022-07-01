@@ -1,0 +1,645 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders correctly it renders correctly whilst loading 1`] = `
+Array [
+  <div
+    className="modal display-block"
+  >
+    <section
+      className="modal-main"
+    >
+      <h3>
+        Todo Application Information
+      </h3>
+      <p>
+        Data not available from server: Cannot read property 'length' of undefined
+      </p>
+      <button
+        className="btn btn-primary"
+        onClick={[Function]}
+      >
+        Close
+      </button>
+    </section>
+  </div>,
+  "",
+  "",
+  <div
+    className="container"
+  >
+    <header>
+      <nav
+        className="navbar navbar-expand-sm"
+      >
+        <a
+          className="navbar-brand"
+          href="https://www.qa.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="QA Ltd"
+            src="qalogo.svg"
+            style={
+              Object {
+                "width": "100px",
+              }
+            }
+          />
+        </a>
+        <a
+          className="navbar-brand"
+          href="/"
+        >
+          <h1>
+            Todo App
+          </h1>
+        </a>
+      </nav>
+    </header>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <h3>
+          Todos List
+        </h3>
+        <table
+          className="table table-striped"
+        >
+          <thead>
+            <tr>
+              <th>
+                Description
+              </th>
+              <th>
+                Date Created
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                colSpan="3"
+                id="error"
+              >
+                Data not available from server: Cannot read property 'length' of undefined
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        className="addEditTodo row"
+      >
+        <h3>
+          Add
+           Todo
+        </h3>
+      </div>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="todoDescription"
+          >
+            Description: 
+          </label>
+          <input
+            className="form-control"
+            name="todoDescription"
+            onChange={[Function]}
+            placeholder="Todo description"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="todoDateCreated"
+          >
+            Created on: 
+          </label>
+          <div>
+            Date Created
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="btn btn-danger"
+            disabled={true}
+            type="submit"
+            value="Submit"
+          />
+        </div>
+      </form>
+    </div>
+    <footer
+      className="mt-auto py-3 container text-center"
+    >
+      © QA Ltd 2019-
+    </footer>
+  </div>,
+]
+`;
+
+exports[`App component renders correctly it renders correctly with error 1`] = `
+Array [
+  <div
+    className="modal display-block"
+  >
+    <section
+      className="modal-main"
+    >
+      <h3>
+        Todo Application Information
+      </h3>
+      <p>
+        Data not available from server: undefined
+      </p>
+      <button
+        className="btn btn-primary"
+        onClick={[Function]}
+      >
+        Close
+      </button>
+    </section>
+  </div>,
+  "",
+  "",
+  <div
+    className="container"
+  >
+    <header>
+      <nav
+        className="navbar navbar-expand-sm"
+      >
+        <a
+          className="navbar-brand"
+          href="https://www.qa.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="QA Ltd"
+            src="qalogo.svg"
+            style={
+              Object {
+                "width": "100px",
+              }
+            }
+          />
+        </a>
+        <a
+          className="navbar-brand"
+          href="/"
+        >
+          <h1>
+            Todo App
+          </h1>
+        </a>
+      </nav>
+    </header>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <h3>
+          Todos List
+        </h3>
+        <table
+          className="table table-striped"
+        >
+          <thead>
+            <tr>
+              <th>
+                Description
+              </th>
+              <th>
+                Date Created
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                colSpan="3"
+                id="error"
+              >
+                Data not available from server: undefined
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        className="addEditTodo row"
+      >
+        <h3>
+          Add
+           Todo
+        </h3>
+      </div>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="todoDescription"
+          >
+            Description: 
+          </label>
+          <input
+            className="form-control"
+            name="todoDescription"
+            onChange={[Function]}
+            placeholder="Todo description"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="todoDateCreated"
+          >
+            Created on: 
+          </label>
+          <div>
+            Date Created
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="btn btn-danger"
+            disabled={true}
+            type="submit"
+            value="Submit"
+          />
+        </div>
+      </form>
+    </div>
+    <footer
+      className="mt-auto py-3 container text-center"
+    >
+      © QA Ltd 2019-
+    </footer>
+  </div>,
+]
+`;
+
+exports[`App component renders correctly it renders correctly with no data 1`] = `
+Array [
+  "",
+  "",
+  "",
+  <div
+    className="container"
+  >
+    <header>
+      <nav
+        className="navbar navbar-expand-sm"
+      >
+        <a
+          className="navbar-brand"
+          href="https://www.qa.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="QA Ltd"
+            src="qalogo.svg"
+            style={
+              Object {
+                "width": "100px",
+              }
+            }
+          />
+        </a>
+        <a
+          className="navbar-brand"
+          href="/"
+        >
+          <h1>
+            Todo App
+          </h1>
+        </a>
+      </nav>
+    </header>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <h3>
+          Todos List
+        </h3>
+        <table
+          className="table table-striped"
+        >
+          <thead>
+            <tr>
+              <th>
+                Description
+              </th>
+              <th>
+                Date Created
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                colSpan="3"
+                id="error"
+              >
+                There are no todos stored
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        className="addEditTodo row"
+      >
+        <h3>
+          Add
+           Todo
+        </h3>
+      </div>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="todoDescription"
+          >
+            Description: 
+          </label>
+          <input
+            className="form-control"
+            name="todoDescription"
+            onChange={[Function]}
+            placeholder="Todo description"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="todoDateCreated"
+          >
+            Created on: 
+          </label>
+          <div>
+            Date Created
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="btn btn-danger"
+            disabled={true}
+            type="submit"
+            value="Submit"
+          />
+        </div>
+      </form>
+    </div>
+    <footer
+      className="mt-auto py-3 container text-center"
+    >
+      © QA Ltd 2019-
+    </footer>
+  </div>,
+]
+`;
+
+exports[`App component renders correctly it renders correctly with sample todos 1`] = `
+Array [
+  "",
+  "",
+  "",
+  <div
+    className="container"
+  >
+    <header>
+      <nav
+        className="navbar navbar-expand-sm"
+      >
+        <a
+          className="navbar-brand"
+          href="https://www.qa.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="QA Ltd"
+            src="qalogo.svg"
+            style={
+              Object {
+                "width": "100px",
+              }
+            }
+          />
+        </a>
+        <a
+          className="navbar-brand"
+          href="/"
+        >
+          <h1>
+            Todo App
+          </h1>
+        </a>
+      </nav>
+    </header>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <h3>
+          Todos List
+        </h3>
+        <table
+          className="table table-striped"
+        >
+          <thead>
+            <tr>
+              <th>
+                Description
+              </th>
+              <th>
+                Date Created
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                className="completed"
+              >
+                Sample Todo 1
+              </td>
+              <td
+                className="completed"
+              >
+                Sat, 04 May 2019 15:00:00 GMT
+              </td>
+              <td>
+                N/A
+              </td>
+            </tr>
+            <tr>
+              <td
+                className="completed"
+              >
+                Sample Todo 2
+              </td>
+              <td
+                className="completed"
+              >
+                Sat, 04 May 2019 15:30:00 GMT
+              </td>
+              <td>
+                N/A
+              </td>
+            </tr>
+            <tr>
+              <td
+                className=""
+              >
+                Sample Todo 3
+              </td>
+              <td
+                className=""
+              >
+                Sat, 04 May 2019 15:45:00 GMT
+              </td>
+              <td>
+                <span
+                  id="link"
+                  onClick={[Function]}
+                >
+                  Edit
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td
+                className=""
+              >
+                Sample Todo 4
+              </td>
+              <td
+                className=""
+              >
+                Sat, 04 May 2019 16:00:00 GMT
+              </td>
+              <td>
+                <span
+                  id="link"
+                  onClick={[Function]}
+                >
+                  Edit
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        className="addEditTodo row"
+      >
+        <h3>
+          Add
+           Todo
+        </h3>
+      </div>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="todoDescription"
+          >
+            Description: 
+          </label>
+          <input
+            className="form-control"
+            name="todoDescription"
+            onChange={[Function]}
+            placeholder="Todo description"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="todoDateCreated"
+          >
+            Created on: 
+          </label>
+          <div>
+            Date Created
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="btn btn-danger"
+            disabled={true}
+            type="submit"
+            value="Submit"
+          />
+        </div>
+      </form>
+    </div>
+    <footer
+      className="mt-auto py-3 container text-center"
+    >
+      © QA Ltd 2019-
+    </footer>
+  </div>,
+]
+`;

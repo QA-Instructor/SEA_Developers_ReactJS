@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test NotFound component renders correctly NotFound matches snapshot 1`] = `
+Array [
+  <div
+    className="row"
+  >
+    <h3
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      Page not found
+    </h3>
+  </div>,
+  <div
+    className="row"
+  >
+    <p>
+      If it should be a valid page, perhaps it needs to be on our todo list!
+    </p>
+  </div>,
+]
+`;

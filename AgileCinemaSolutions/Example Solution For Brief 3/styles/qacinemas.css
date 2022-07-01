@@ -1,0 +1,38 @@
+footer{
+  color:#f8f9fa;
+}
+
+#footer-txt{
+  padding-bottom: 15px;
+}
+
+.navbar{
+  background-color: #fff;
+}
+.col-md-6{
+  padding: 1px;
+}
+.col-xs-12{
+  padding: 1px;
+}
+#qa-navbar{
+  padding-left: 0px;
+}
+td,th{
+  text-align: center;
+}
+form{
+  padding-top: 20px;
+}
+.td-right-align{
+  text-align: right;
+}
+.td-left-align{
+  text-align: left;
+}
+.invalid{
+  border-color: #f00;
+}
+#msgcontent{
+  color: #f00;
+}

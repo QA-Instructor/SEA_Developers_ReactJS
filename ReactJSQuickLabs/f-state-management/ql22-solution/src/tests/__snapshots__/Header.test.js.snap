@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches snapshot 1`] = `
+<header>
+  <nav
+    className="navbar navbar-expand-sm"
+  >
+    <a
+      className="navbar-brand"
+      href="/https://www.qa.com"
+      onClick={[Function]}
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="QA Ltd"
+        src="qalogo.svg"
+        style={
+          Object {
+            "width": "100px",
+          }
+        }
+      />
+    </a>
+    <a
+      className="navbar-brand"
+      href="/"
+    >
+      <h1>
+        Todo App
+      </h1>
+    </a>
+    <div
+      className="collapse navbar-collapse"
+    >
+      <ul
+        className="navbar-nav mr-auto"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="nav-link nav-link active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            All Todos
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nav-link"
+            data-testid="addTodoLink"
+            href="/add"
+            onClick={[Function]}
+          >
+            Add Todo
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+`;

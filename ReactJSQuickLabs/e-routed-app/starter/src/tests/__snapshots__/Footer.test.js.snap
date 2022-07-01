@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Footer component renders correctly Footer matches snapshot 1`] = `
+<footer
+  className="mt-auto py-3 container text-center"
+>
+  © QA Ltd 2019-
+</footer>
+`;

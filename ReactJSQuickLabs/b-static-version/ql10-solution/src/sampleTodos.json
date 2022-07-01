@@ -1,0 +1,25 @@
+[{
+        "_id": "5cc08495bf3fd62d03f2f4c1",
+        "todoDescription": "Sample Todo 1",
+        "todoDateCreated": "2019-05-04T15:00:00.000Z",
+        "todoCompleted": true
+    },
+    {
+        "_id": "5cc08495bf3fd62d03f2f4c2",
+        "todoDescription": "Sample Todo 2",
+        "todoDateCreated": "2019-05-04T15:30:00.000Z",
+        "todoCompleted": true
+    },
+    {
+        "_id": "5cc08495bf3fd62d03f2f4c3",
+        "todoDescription": "Sample Todo 3",
+        "todoDateCreated": "2019-05-04T15:45:00.000Z",
+        "todoCompleted": false
+    },
+    {
+        "_id": "5cc08495bf3fd62d03f2f4c4",
+        "todoDescription": "Sample Todo 4",
+        "todoDateCreated": "2019-05-04T16:00:00.000Z",
+        "todoCompleted": false
+    }
+]
